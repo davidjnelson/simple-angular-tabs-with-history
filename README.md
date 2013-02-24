@@ -2,7 +2,7 @@ simple-angular-tabs-with-history
 ================================
 
 Barebones example of how to do tabs using bootstrap css and angular.  For the simplicity of 
-not needing a server, I used hashbang url's instead of html5 history url's.
+not needing a server, I used hashbang urls instead of html5 history urls.
 
 I included a pom.xml if you want to run it in jetty via maven, just do: `mvn jetty:run` and navigate to http://localhost:8080
 
