@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+
+<div ng-app="app" ng-controller="AppCtrl">
+    <ul class="nav nav-tabs">
+        <li ng-class="checkActive('#/')">
+            <a href="#/">Home</a>
+        </li>
+        <li ng-class="checkActive('#/Enterprise-D')">
+            <a href="#/Enterprise-D">Enterprise-D</a>
+        </li>
+        <li ng-class="checkActive('#/Voyager')">
+            <a href="#/Voyager">Voyager</a>
+        </li>
+    </ul>
+    <ng-view></ng-view>
+</div>
+
+<script type="text/javascript" src="js/angular.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
